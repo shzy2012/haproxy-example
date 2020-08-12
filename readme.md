@@ -21,3 +21,6 @@ docker run -d --name shzy-haproxy2.0 my-haproxy
 ```bash
 docker run -d --name shzy-haproxy -v $PWD/etc/haproxy:/usr/local/etc/haproxy haproxy:latest
 ```
+
+### 监控
+<img src="./static/haproxy.png">
