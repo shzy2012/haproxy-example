@@ -1,9 +1,9 @@
-# Haproxy 配置
+# Haproxy 配置 EMQX
 
 
 ### docker build
 ```bash
-docker build -t my-haproxy .
+docker build -t my-haproxy2.0 .
 ```
 
 ### 检测配置文件是否正确
@@ -13,7 +13,7 @@ docker run -it --rm --name haproxy-syntax-check my-haproxy haproxy -c -f /usr/lo
 
 ### 运行容器
 ```bash
-docker run -d --name shzy-haproxy my-haproxy
+docker run -d --name shzy-haproxy2.0 my-haproxy
 ```
 
 
